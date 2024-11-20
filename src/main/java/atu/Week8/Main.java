@@ -4,14 +4,21 @@ package atu.Week8;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Customer part1Customer = new Customer("tom", "20 jiggel lane ", 199,true,"10000456" );
+        System.out.println("Part 1 Customer Details:");
+        System.out.println(part1Customer.toString());
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+
+       /* Customer part2Customer = new Customer();
+        part2Customer.setName("Bob Smith");
+        part2Customer.setAddress();
+        part2Customer.setNumber(089748274);
+
+        System.out.println("\nPart 2 Customer Details:");
+        System.out.printf("Name: %s\n", part2Customer.getName());
+        System.out.printf("Age: %d\n", part2Customer.getAge());
+        System.out.printf("Email: %s\n", part2Customer.getEmail());
+
+        */
     }
-}
+    }
