@@ -4,7 +4,7 @@ package atu.Week8;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Customer part1Customer = new Customer("tom", "20 jiggel lane ", 199,true,"10000456" );
+        Customer part1Customer = new Customer("tom", "20 jiggel lane ", "199","10000456", true);
         System.out.println("Part 1 Customer Details:");
         System.out.println(part1Customer.toString());
 
@@ -12,7 +12,7 @@ public class Main {
         Customer part2Customer = new Customer();
         part2Customer.setName("Bob Smith");
         part2Customer.setAddress("21 jiggle lanes");
-        part2Customer.setNumber(5);
+        part2Customer.setNumber("5");
         part2Customer.setField(true);
         part2Customer.setCustomer("1335800");
 

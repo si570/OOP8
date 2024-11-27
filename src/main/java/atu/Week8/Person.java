@@ -3,7 +3,7 @@ package atu.Week8;
 public class Person {
     private String name;
     private String address;
-    private int number;
+    private String number;
 
     @Override
     public String toString() {
@@ -14,7 +14,7 @@ public class Person {
                 '}';
     }
 
-    public Person(String name, String address, int number) {
+    public Person(String name, String address, String number) {
         this.name = name;
         this.address = address;
         this.number = number;
@@ -23,7 +23,7 @@ public class Person {
     public Person() {
         name="";
         address="";
-        number=0;
+        number="";
     }
 
     public String getName() {
@@ -42,11 +42,11 @@ public class Person {
         this.address = address;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 }
