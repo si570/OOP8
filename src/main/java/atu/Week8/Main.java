@@ -9,16 +9,21 @@ public class Main {
         System.out.println(part1Customer.toString());
 
 
-       /* Customer part2Customer = new Customer();
+        Customer part2Customer = new Customer();
         part2Customer.setName("Bob Smith");
-        part2Customer.setAddress();
-        part2Customer.setNumber(089748274);
+        part2Customer.setAddress("21 jiggle lanes");
+        part2Customer.setNumber(5);
+        part2Customer.setField(true);
+        part2Customer.setCustomer("1335800");
 
         System.out.println("\nPart 2 Customer Details:");
-        System.out.printf("Name: %s\n", part2Customer.getName());
-        System.out.printf("Age: %d\n", part2Customer.getAge());
-        System.out.printf("Email: %s\n", part2Customer.getEmail());
+        System.out.println("Name: "+ part2Customer.getName());
+        System.out.println("Address: "+ part2Customer.getAddress());
+        System.out.println("Number: "+ part2Customer.getNumber());
+        System.out.println("Field: "+ part2Customer.isField());
+        System.out.println("Customer Details: "+part2Customer.getCustomer());
 
-        */
+
+
     }
     }
