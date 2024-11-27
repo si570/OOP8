@@ -6,7 +6,7 @@ public class Customer extends Person {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return super.toString()+" " +
                 "customer='" + customer + '\'' +
                 ", field=" + field +
                 '}';
@@ -18,9 +18,10 @@ public class Customer extends Person {
         this.customer = customer;
     }
 
-    public Customer(boolean field, String customer) {
-        this.field = field;
-        this.customer = customer;
+    public Customer() {
+        super();
+        field = false;
+        customer = "";
     }
 
     public String getCustomer() {
