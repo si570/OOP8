@@ -12,10 +12,10 @@ public class Customer extends Person {
                 '}';
     }
 
-    public Customer(String name, String address, int number, boolean field, String customer) {
+    public Customer(String name, String address, String number, String customer, boolean field) {
         super(name, address, number);
-        this.field = field;
         this.customer = customer;
+        this.field = field;
     }
 
     public Customer() {
