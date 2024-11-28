@@ -10,6 +10,8 @@ public class PreferredCustomer extends Customer {
         this.discountLevel = discountLevel;
     }
 
+
+
     public PreferredCustomer() {
         super();
         discountLevel = 0.0;
@@ -34,8 +36,8 @@ public class PreferredCustomer extends Customer {
 
     @Override
     public String toString() {
-        return "PeferedCustomer{" +
-                "loyaltyPoints=" + loyaltyPoints +
+        return "PeferedCustomer" +
+                " loyaltyPoints=" + loyaltyPoints +
                 ", discountLevel=" + discountLevel +
                 '%';
     }
@@ -49,13 +51,13 @@ public class PreferredCustomer extends Customer {
             discountLevel =5;
         }
         if(loyaltyPoints >= 1000){
-            discountLevel =6;
+            discountLevel = 6;
         }
         if(loyaltyPoints >= 1500){
-            discountLevel =7;
+            discountLevel = 7;
         }
         if(loyaltyPoints >= 2000){
-            discountLevel =10;
+            discountLevel = 10;
         }
     }
 }
